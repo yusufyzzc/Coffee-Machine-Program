@@ -11,6 +11,6 @@ It takes user input, checks resources, processes coin transactions and “serves
 - Checks if enough ingredients are available before making the drink
 - Simulates coin input: quarters, dimes, nickels, pennies
 - If payment is insufficient, money is refunded
-- If payment is enough, the machine gives change, deducts resources, and makes the coffee
+- If payment is enough, the machine gives change, deducts resources and makes the coffee
 
 
