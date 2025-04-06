@@ -13,9 +13,4 @@ It takes user input, checks resources, processes coin transactions and “serves
 - If payment is insufficient, money is refunded
 - If payment is enough, the machine gives change, deducts resources, and makes the coffee
 
-## Getting Started
 
-```bash
-git clone https://github.com/your-username/coffee-machine.git
-cd coffee-machine
-python coffe_machine.py
