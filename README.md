@@ -1,14 +1,15 @@
-# ☕ Coffee Machine – Python Console Program
+# ☕ Coffee Machine OOP – Python Console Program
 
-A simple yet functional **console-based coffee machine simulation** written in Python.  
-It takes user input, checks resources, processes coin transactions and “serves” coffee based on the result.
+A **console-based coffee machine simulation** refactored using **Object-Oriented Programming** principles.  
+This version modularizes the logic into classes for better structure, readability and scalability.
 
-## Features
+---
 
-- Prompts the user to choose a drink: `espresso`, `latte`, or `cappuccino`
-- `"report"` command shows current machine resources
-- `"off"` command shuts down the machine
-- Checks if enough ingredients are available before making the drink
-- Simulates coin input: quarters, dimes, nickels, pennies
-- If payment is insufficient, money is refunded
-- If payment is enough, the machine gives change, deducts resources, and makes the coffee
+## Project Structure
+
+```plaintext
+coffee_maker.py     # Manages coffee machine operations and resources  
+main.py             # Runs the program and interacts with all components  
+menu.py             # Contains drink options and menu logic  
+money_machine.py    # Handles all money transactions  
+README.md           # Project documentation
