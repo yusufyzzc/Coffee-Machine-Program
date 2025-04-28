@@ -1,7 +1,7 @@
 # ☕ Coffee Machine OOP – Python Console Program
 
 A **console-based coffee machine simulation** refactored using **Object-Oriented Programming** principles.  
-This version modularizes the logic into classes for better structure, readability and scalability.
+This version modularizes the logic into classes for better structure and readability.
 
 ---
 
